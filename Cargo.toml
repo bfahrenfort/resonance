@@ -31,6 +31,8 @@ open = "4.0.1"
 md5 = "0.7.0"
 unicode-truncate = "0.2.0"
 unicode-width = "0.1.10"
+proc-macro2="1.0.60"
+ahash = "0.8"
 
 [dependencies.gtk]
 package = "gtk4"
