@@ -49,6 +49,7 @@ On a recent enough Ubuntu or Debian unstable you can do the following:
 sudo apt install build-essential rustc meson ninja-build git python3-loguru python3-mutagen python3-tqdm libgtk-4-dev libadwaita-1-dev \
 libgstreamer-plugins-bad1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev
 git clone https://github.com/nate-xyz/resonance && cd resonance
+meson build
 ninja -C build && sudo ninja -C build install
 
 ```
